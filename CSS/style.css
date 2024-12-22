@@ -178,7 +178,8 @@ section {
 /* ICONS ------------------------------------------------------------- */
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 2.5rem;
+  filter: grayscale(100%);
 }
 
 /* BUTTONS ----------------------------------------------------------- */
@@ -288,7 +289,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
