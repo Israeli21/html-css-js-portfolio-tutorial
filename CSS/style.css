@@ -51,7 +51,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
+  height: 26px;
   width: 30px;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@ a:hover {
 
 .menu-links a {
   display: block;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   font-size: 1.5rem;
   color: black;
@@ -177,6 +177,12 @@ section {
 
 /* ICONS ------------------------------------------------------------- */
 .icon {
+  cursor: pointer;
+  height: 2.5rem;
+  /* filter: grayscale(100%); */
+}
+
+.UH-icon{
   cursor: pointer;
   height: 2.5rem;
   filter: grayscale(100%);
