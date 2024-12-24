@@ -136,6 +136,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  position: relative;
 }
 
 .section__pic-container {
@@ -297,7 +298,8 @@ section {
 .experience-sub-title {
   color: rgb(0, 0, 0);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+  /* font-size: 20px; */
   margin-bottom: 2rem;
 }
 
