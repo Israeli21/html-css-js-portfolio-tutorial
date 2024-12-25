@@ -27,7 +27,15 @@
   }
 
   .arrow {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    right: 0rem;
+    bottom: -1rem;
+    z-index: 500;
+  }
+
+  .text-container{
+    margin-bottom: 30px;
   }
 
   section,
@@ -47,6 +55,15 @@
 
   .about-containers {
     margin-top: 0;
+  }
+
+  .contact-info-upper-container{
+    padding: 0.4rem;
+  }
+
+  .contact-info-container{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 
