@@ -280,6 +280,11 @@ section {
   bottom: 2.5rem;
 }
 
+/* .arrow:hover{
+  background-color: rgb(208, 208, 208);
+  border-radius: 20px;
+} */
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -291,9 +296,9 @@ section {
   transition: transform 0.8s ease;
 }
 
-.details-container:hover{
+.project-container:hover{
   border-color: rgb(20, 20, 20);
-  transform: scale(1.05);
+  transform: scale(1.04);
   cursor: pointer;
   transition: 0.8s;
 }
