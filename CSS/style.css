@@ -1,8 +1,6 @@
 /* DESKTOP NAV -------------------------------------------------------- */
 nav,
-.nav-links {
-  display: flex;
-}
+.nav-links { display: flex; }
 
 nav {
   justify-content: space-around;
@@ -29,13 +27,9 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
-}
+.logo { font-size: 2rem; }
 
-.logo:hover {
-  cursor: default;
-}
+.logo:hover { cursor: default; }
 
 /* HAMBURGER MENU ----------------------------------------------------- */
 #hamburger-nav {
