@@ -296,11 +296,23 @@ section {
   transition: transform 0.8s ease;
 }
 
+.projects-scroll-container {
+  display: flex;
+  overflow: hidden; /* Allows horizontal scrolling */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+  gap: 1rem; /* Optional: Adds space between project-container divs */
+}
+
+.project-container {
+  min-width: calc((100% - 2rem) / 3); /* Adjust to fit three containers in the viewport */
+  box-sizing: border-box;
+}
+
 .project-container:hover{
   border-color: rgb(20, 20, 20);
-  transform: scale(1.04);
   cursor: pointer;
-  transition: 0.8s;
+  /* transform: scale(1.04);
+  transition: 0.8s; */
 }
 
 .section-container {
