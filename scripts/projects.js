@@ -1,6 +1,7 @@
 const projects = [
     {
-        thumbnail: "Assets/thumbnails/amazon-project.png",
+        // AMAZON CLONE:
+        thumbnail: "images/thumbnails/amazon-project.png",
         name: "Amazon Clone",
         skills: [
             "./Skills/JS-Skill.jpg",
@@ -10,7 +11,8 @@ const projects = [
         ],
         link: "https://github.com/Israeli21/amazon-project-main"
     },{
-        thumbnail: "Assets/thumbnails/portfolio-website.png",
+        // PORTFOLIO WEBSITE:
+        thumbnail: "images/thumbnails/portfolio-website.png",
         name: "Portfolio Website",
         skills: [
             "./Skills/JS-Skill.jpg",
@@ -19,7 +21,8 @@ const projects = [
         ],
         link: "https://github.com/Israeli21/html-css-js-portfolio-tutorial"
     },{
-        thumbnail: "Assets/thumbnails/youtube-homepage.png",
+        // YOUTUBE HOMEPAGE:
+        thumbnail: "images/thumbnails/youtube-homepage.png",
         name: "Youtube Homepage",
         skills: [
             "./Skills/JS-Skill.jpg",
@@ -28,14 +31,16 @@ const projects = [
         ],
         link: "https://github.com/Israeli21/youtube-project"
     },{
-        thumbnail: "Assets/thumbnails/snake-game.png",
+        // SNAKE GAME:
+        thumbnail: "images/thumbnails/snake-game.png",
         name: "Snake Game",
         skills: [
             "./Skills/cpp-skill.jpg"
         ],
         link: "https://github.com"
     },{
-        thumbnail: "Assets/thumbnails/gummy-game.png",
+        // GUMMY BEAR GAME:
+        thumbnail: "images/thumbnails/gummy-game.png",
         name: "Gummy Bear Game",
         skills: [
             "./Skills/cpp-skill.jpg"
