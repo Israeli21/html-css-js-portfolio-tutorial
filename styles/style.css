@@ -279,35 +279,7 @@ section {
   border-radius: 20px;
 } */
 
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
-  transition: transform 0.8s ease;
-}
 
-.projects-scroll-container {
-  display: flex;
-  overflow: hidden; /* Allows horizontal scrolling */
-  scroll-behavior: smooth; /* Enables smooth scrolling */
-  gap: 1rem; /* Optional: Adds space between project-container divs */
-}
-
-.project-container {
-  min-width: calc((100% - 2rem) / 3); /* Adjust to fit three containers in the viewport */
-  box-sizing: border-box;
-}
-
-.project-container:hover{
-  border-color: rgb(20, 20, 20);
-  cursor: pointer;
-  /* transform: scale(1.04);
-  transition: 0.8s; */
-}
 
 .section-container {
   gap: 4rem;

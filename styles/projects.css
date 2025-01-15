@@ -1,0 +1,59 @@
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    transition: transform 0.8s ease;
+}
+
+.projects-scroll-container {
+    display: flex;
+    overflow: hidden; /* Allows horizontal scrolling */
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    gap: 1rem; /* Optional: Adds space between project-container divs */
+}
+
+.project-container {
+    min-width: calc((100% - 2rem) / 3); /* Adjust to fit three containers in the viewport */
+    box-sizing: border-box;
+}
+
+.project-container:hover{
+    border-color: rgb(20, 20, 20);
+    cursor: pointer;
+    /* transform: scale(1.04);
+    transition: 0.8s; */
+}
+
+.greater-than,
+.less-than{
+    height: 20px;
+    width: 20px;
+}
+
+.slide-left{
+    position: absolute;
+    top: 330px;
+    left: -70px;
+}
+
+.slide-right{
+    position: absolute;
+    top: 330px;
+    right: -70px;
+}
+
+.slide-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(246, 246, 246);
+}
+
+.slide-button:hover{
+    background-color: rgb(231, 231, 231);
+}

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mediaqueries.css">
+    <link rel="stylesheet" href="styles/projects.css">
   </head>
   <body>
     <nav id = "desktop-nav">
@@ -129,8 +130,12 @@
           <script src = "scripts/projects.js"></script>
           <script src = "scripts/generateProjects.js"></script>
         </div>
-        <button id="slideLeft" type="button">Slide left</button>
-        <button id="slideRight" type="button">Slide right</button>
+        <button id="slideLeft" type="button" class = "slide-button slide-left">
+          <img class="less-than" src = "images/less-than-symbol.png">
+        </button>
+        <button id="slideRight" type="button" class = "slide-button slide-right">
+          <img class="greater-than" src = "images/greater-than-symbol.svg">
+        </button>
       </div>
       <img src="images/arrow.png" alt="Arrow Icon" class = "icon arrow" onclick = "location.href = './#contact'">
     </section>
