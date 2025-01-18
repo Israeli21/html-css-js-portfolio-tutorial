@@ -9,17 +9,12 @@
 }
 
 @media screen and (max-width: 1200px) {
-  #desktop-nav{
-    display: none;
-  }
-
-  #hamburger-nav {
-    display: flex;
-  }
+  #desktop-nav{ display: none; }
+  #hamburger-nav { display: flex; }
 
   #experiece,
   .experience-details-container {
-    margin-top: 2ren;
+    margin-top: 2rem;
   }
 
   #profile, .section-container {
@@ -126,11 +121,6 @@
     font-size: 1.25rem;
   }
 
-  .title {
-    font-size: 2rem;
-  }
-
-  .text-container {
-    text-align: justify;
-  }
+  .title { font-size: 2rem; }
+  .text-container { text-align: justify; }
 }

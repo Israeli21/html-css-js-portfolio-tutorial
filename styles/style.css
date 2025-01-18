@@ -20,7 +20,8 @@ a {
   text-decoration-color: white;
 }
 
-a:hover {
+a:hover,
+.menu-links a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -28,7 +29,6 @@ a:hover {
 }
 
 .logo { font-size: 2rem; }
-
 .logo:hover { cursor: default; }
 
 /* HAMBURGER MENU ----------------------------------------------------- */
@@ -80,23 +80,9 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links a:hover{
-  /* color: rgb(255, 255, 255);
-  background-color: rgb(41, 41, 41); */
-  color: rgb(95, 95, 95);
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
-  text-decoration-color: rgb(168, 168, 168);
-  transition: 0.4s;
-}
-
-.menu-links li {
-  list-style: none;
-}
-
-.menu-links.open {
-  max-height: 300px;
-}
+.menu-links li { list-style: none;}
+.menu-links a:hover{ text-underline-offset: 0.5rem; }
+.menu-links.open { max-height: 300px; }
 
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
@@ -112,17 +98,17 @@ a:hover {
 
 .hamburger-icon span:first-child {
   transform: none;
-}
-
-.hamburger-icon span:first-child {
   opacity: 1;
-}
-
-.hamburger-icon span:first-child {
   transform: none;
 }
 
 /* SECTIONS ---------------------------------------------------------- */
+
+#about,
+#experience,
+#projects {
+  position: relative
+}
 
 section {
   padding-top: 4vh;
@@ -132,9 +118,7 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
-  display: flex;
-}
+.section-container { display: flex; }
 
 /* PROFILE SECTION --------------------------------------------------- */
 #profile {
@@ -244,10 +228,6 @@ section {
 
 /* ABOUT SECTION ----------------------------------------------------- */ 
 
-#about {
-  position: relative;
-}
-
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -274,13 +254,6 @@ section {
   bottom: 2.5rem;
 }
 
-/* .arrow:hover{
-  background-color: rgb(208, 208, 208);
-  border-radius: 20px;
-} */
-
-
-
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -293,10 +266,6 @@ section {
 }
 
 /* EXPERIENCE SECTION ------------------------------------------------ */
-
-#experience {
-  position: relative;
-}
 
 .experience-sub-title {
   color: rgb(0, 0, 0);
@@ -328,14 +297,9 @@ article {
   gap: 0.5rem;
 }
 
-article .icon {
-  cursor: default;
-}
+article .icon { cursor: default; }
 
 /* PROJECTS SECTION -------------------------------------------------- */
-#projects {
-  position: relative;
-}
 
 .color-container {
   border-color: rgb(163, 163, 163);
@@ -389,17 +353,9 @@ article .icon {
   /* padding: 0.5rem; */
 }
 
-.contact-info-container p {
-  font-size: larger;
-}
-
-.contact-icon {
-  cursor: default;
-}
-
-.email-icon {
-  height: 2.5rem;
-}
+.contact-info-container p { font-size: larger; }
+.contact-icon { cursor: default; }
+.email-icon { height: 2.5rem; }
 
 /* FOOTER SECTION ---------------------------------------------------- */
 footer {
@@ -410,3 +366,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* 43.5% */
