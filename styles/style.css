@@ -22,10 +22,10 @@ a {
 
 a:hover,
 .menu-links a:hover {
-  color: grey;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: black;
 }
 
 .logo { font-size: 2rem; }
@@ -49,11 +49,21 @@ a:hover,
 /* HAMBURGER MENU ----------------------------------------------------- */
 #hamburger-nav {
   display: none;
+  background-color: rgb(36, 36, 36);
+  color: white;
 }
 
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  left: 10px;
+  bottom: 4px;
+}
+
+.hamburger-background{
+  background-color: white;
+  width: 50px;
+  height: 50px;
 }
 
 .hamburger-icon {
@@ -110,6 +120,12 @@ a:hover,
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
+
+.hamburger-icon.open span:first-child,
+.hamburger-icon.open span:last-child{
+  right: 10px;
+}
+
 
 .hamburger-icon span:first-child {
   transform: none;
