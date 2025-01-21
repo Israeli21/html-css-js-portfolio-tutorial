@@ -144,6 +144,16 @@ section {
   position: relative;
 }
 
+.left-align-this{
+  text-align: left;
+  font-size: 20px;
+}
+
+.name{
+  font-size: 3.5rem;
+  text-align:left;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -154,14 +164,13 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  padding-left: 2rem;
 }
 
 .section__text p { font-weight: 600; }
-
-.section__text__p1 {
-  text-align: center;
+.section__text__p1 { 
+  text-align: center; 
 }
-
 .section__text__p2 {
   font-size: 1.76rem;
   margin-bottom: 1rem;
@@ -174,7 +183,7 @@ section {
 
 #socials-container {
   display: flex;
-  justify-content: center;
+  padding-left: 1rem;
   margin-top: 1rem;
   gap: 1rem;
 }
@@ -197,7 +206,6 @@ section {
 /* BUTTONS ----------------------------------------------------------- */
 .btn-container {
   display: flex;
-  justify-content: center;
   gap: 1rem;
 }
 
@@ -221,7 +229,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(28, 28, 28);
   color: white;
 }
 
@@ -298,7 +306,7 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  /* text-align: initial; */
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -328,16 +336,8 @@ article .icon { cursor: default; }
   aspect-ratio: 1 / 0.8;
   /* In order to have a 'square' image, you must change to a 1 / 1 ratio */
 }
-
-.project-title {
-  margin: 1rem;
-  color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
-}
+.project-title { margin: 1rem; }
+.project-btn { border-color: rgb(163, 163, 163); }
 
 /* CONTACT ----------------------------------------------------------- */
 #contact {
