@@ -17,10 +17,10 @@
       <div class = "logo">Portfolio Website</div>
       <div>
         <ul class = "nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" class = "nav-buttons">About</a></li>
+          <li><a href="#experience" class = "nav-buttons">Experience</a></li>
+          <li><a href="#projects" class = "nav-buttons">Projects</a></li>
+          <li><a href="#contact" class = "nav-buttons">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -33,10 +33,10 @@
           <span></span>
         </div>
         <div class = "menu-links">
-          <li><a href = "#about" onclick = "toggleMenu()">About</a></li>
-          <li><a href = "#experience" onclick = "toggleMenu()">Experience</a></li>
-          <li><a href = "#projects" onclick = "toggleMenu()">Projects</a></li>
-          <li><a href = "#contact" onclick = "toggleMenu()">Contact</a></li>
+          <li><a href = "#about" class = "nav-buttons" onclick = "toggleMenu()">About</a></li>
+          <li><a href = "#experience" class = "nav-buttons" onclick = "toggleMenu()">Experience</a></li>
+          <li><a href = "#projects" class = "nav-buttons" onclick = "toggleMenu()">Projects</a></li>
+          <li><a href = "#contact" class = "nav-buttons" onclick = "toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -104,13 +104,13 @@
           <div class="details-container">
             <h2 class="experience-sub-title">Data Analyst</h2>
             <div class="article-container data-skills">
-              <script src = "scripts/generateDataSkills.js"></script>
+              <script src = "scripts/generater/dataSkills.js"></script>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Software Engineering</h2>
+            <h2 class="experience-sub-title">Frontend Developer</h2>
             <div class="article-container software-skills">
-              <script src = "scripts/generateSoftwareSkills.js"></script>
+              <script src = "scripts/generater/softwareSkills.js"></script>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@
       <div class = "experience-details-container">
         <div class = "about-containers projects-scroll-container">
           <script src = "scripts/projects.js"></script>
-          <script src = "scripts/generateProjects.js"></script>
+          <script src = "scripts/generater/recentProjects.js"></script>
         </div>
         <button id="slideLeft" type="button" class = "slide-button slide-left">
           <img class="less-than" src = "images/less-than-symbol.png">

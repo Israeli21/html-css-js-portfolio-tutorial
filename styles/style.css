@@ -31,6 +31,21 @@ a:hover,
 .logo { font-size: 2rem; }
 .logo:hover { cursor: default; }
 
+#desktop-nav{
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+.nav-buttons{
+  color: white;
+}
+.nav-buttons:hover{
+  color: white;
+  text-decoration:underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: white;
+}
+
 /* HAMBURGER MENU ----------------------------------------------------- */
 #hamburger-nav {
   display: none;
@@ -366,5 +381,3 @@ footer {
 footer p {
   text-align: center;
 }
-
-/* 43.5% */
