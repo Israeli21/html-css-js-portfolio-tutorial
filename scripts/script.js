@@ -17,3 +17,9 @@ buttonRight.onclick = function () {
 buttonLeft.onclick = function () {
   container.scrollLeft -= projectContainerWidth + 16; // Adjust for the gap if any
 };
+
+var typed = new Typed(".auto-type", {
+  strings: ["Israel Trejo"],
+  typeSpeed: 150,
+  loop: false
+});
