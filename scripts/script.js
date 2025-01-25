@@ -19,7 +19,8 @@ buttonLeft.onclick = function () {
 };
 
 var typed = new Typed(".auto-type", {
+  startDelay: 2000,
   strings: ["Israel Trejo"],
-  typeSpeed: 150,
+  typeSpeed: 200,
   loop: false
 });
