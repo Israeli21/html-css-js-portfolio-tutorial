@@ -185,6 +185,8 @@ section {
 .left-align-this{
   text-align: left;
   font-size: 20px;
+  color: rgb(85, 85, 85);
+  white-space: nowrap;
 }
 
 .name{
@@ -288,7 +290,6 @@ section {
 }
 
 /* ABOUT SECTION ----------------------------------------------------- */ 
-
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;

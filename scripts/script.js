@@ -5,6 +5,14 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+document.querySelector('a[href="#profile"]').addEventListener("click", (e) => {
+  e.preventDefault(); // Prevent the default anchor behavior
+  window.scrollTo({
+    top: 0, // Scroll to the top of the page
+    behavior: "smooth", // Smooth scrolling animation
+  });
+});
+
 const buttonRight = document.getElementById('slideRight');
 const buttonLeft = document.getElementById('slideLeft');
 const container = document.querySelector('.projects-scroll-container');
@@ -18,9 +26,9 @@ buttonLeft.onclick = function () {
   container.scrollLeft -= projectContainerWidth + 16; // Adjust for the gap if any
 };
 
-var typed = new Typed(".auto-type-1", {
-  strings: ["Israel Trejo"],
-  typeSpeed: 75,
+var typed = new Typed(".auto-type-b", {
+  strings: ["Junior Computer Science Student"],
+  typeSpeed: 25,
   loop: false,
   showCursor: false
 });
@@ -47,6 +55,9 @@ function createObserver(selector, strings) {
 }
 
 // Create observers for different elements
+createObserver(".auto-type-a", "Hi! I'm");
+createObserver(".auto-type-1", "Israel Trejo");
+
 createObserver(".auto-type-2", "About Me");
 createObserver(".auto-type-3", "Experience");
 createObserver(".auto-type-4", "Projects");
