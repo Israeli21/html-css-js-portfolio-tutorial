@@ -54,3 +54,9 @@
     background-color: rgb(246, 246, 246);
 }
 .slide-button:hover{ background-color: rgb(231, 231, 231); }
+
+.keep-structure {
+    display: inline-block; /* Ensure it respects text width */
+    width: 10ch; /* Reserve space for the text (10 characters wide) */
+    height: 1em; /* Match the font size */
+}

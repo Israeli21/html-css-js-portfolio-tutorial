@@ -18,9 +18,36 @@ buttonLeft.onclick = function () {
   container.scrollLeft -= projectContainerWidth + 16; // Adjust for the gap if any
 };
 
-var typed = new Typed(".auto-type", {
-  startDelay: 2000,
+var typed = new Typed(".auto-type-1", {
   strings: ["Israel Trejo"],
-  typeSpeed: 200,
-  loop: false
+  typeSpeed: 75,
+  loop: false,
+  showCursor: false
 });
+
+function createObserver(selector, strings) {
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          new Typed(selector, {
+            strings: [strings],
+            typeSpeed: 50,
+            loop: false,
+            showCursor: false
+          });
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.5 } // Trigger when 50% of the element is visible
+  );
+
+  observer.observe(document.querySelector(selector));
+}
+
+// Create observers for different elements
+createObserver(".auto-type-2", "About Me");
+createObserver(".auto-type-3", "Experience");
+createObserver(".auto-type-4", "Projects");
+createObserver(".auto-type-5", "Contact Me");
