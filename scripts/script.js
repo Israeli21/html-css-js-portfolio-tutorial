@@ -26,11 +26,28 @@ buttonLeft.onclick = function () {
   container.scrollLeft -= projectContainerWidth + 16; // Adjust for the gap if any
 };
 
-var typed = new Typed(".auto-type-b", {
+var typed = new Typed(".auto-type-a", {
+  strings: ["Hi! I'm"],
+  typeSpeed: 25,
+  loop: false,
+  showCursor: false
+  ,startDelay: 2500
+});
+
+var typed2 = new Typed(".auto-type-b", {
   strings: ["Junior Computer Science Student"],
   typeSpeed: 25,
   loop: false,
   showCursor: false
+  ,startDelay: 2500
+});
+
+var typed3 = new Typed(".auto-type-1", {
+  strings: ["Israel Trejo"],
+  typeSpeed: 50,
+  loop: false,
+  showCursor: false
+  ,startDelay: 2500
 });
 
 function createObserver(selector, strings) {
@@ -54,9 +71,6 @@ function createObserver(selector, strings) {
   observer.observe(document.querySelector(selector));
 }
 
-// Create observers for different elements
-createObserver(".auto-type-a", "Hi! I'm");
-createObserver(".auto-type-1", "Israel Trejo");
 
 createObserver(".auto-type-2", "About Me");
 createObserver(".auto-type-3", "Experience");
