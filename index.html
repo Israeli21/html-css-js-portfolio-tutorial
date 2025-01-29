@@ -56,7 +56,8 @@
         <img class = "my-profile-pic" src = "images/me-again.jpg" alt = "Israel Trejo profile picture">
       </div>
       <div class = "section__text">
-        <div class="auto-type-container">
+        <!-- AUTOTYPE: all text -->
+        <!-- <div class="auto-type-container">
           <h1 class="left-align-this"><span class = "auto-type-a keep-structure"></span></h1>
         </div>
         <div class="auto-type-container">
@@ -64,7 +65,15 @@
         </div>
         <div class="auto-type-container">
           <h1 class="section__text__p2 left-align-this"><span class = "auto-type-b keep-structure"></span></h1>
+        </div> -->
+
+        <!-- AUTOTYPE: only my name -->
+        <h1 class="left-align-this">Hi! I'm</h1>
+        <div class="auto-type-container">
+          <h1 class="name"><span class = "auto-type-1 keep-structure"></span></h1>
         </div>
+        <h1 class="section__text__p2 left-align-this">Junior Computer Science Student</h1>
+        
         <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <div class = "btn-container">
           <button class = "btn btn-color-2 left-align" onclick = "window.open('./images/resume.pdf')">
@@ -189,15 +198,15 @@
       <nav>
         <div class = "nav-links-container">
           <ul class = "nav-links">
-            <li><a href="#profile">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#profile" class = "nav-buttons">Home</a></li>
+            <li><a href="#about" class = "nav-buttons">About</a></li>
+            <li><a href="#experience" class = "nav-buttons">Experience</a></li>
+            <li><a href="#projects" class = "nav-buttons">Projects</a></li>
             <!-- <li><a href="#contact">Contact</a></li> -->
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Israel Trejo. All Rights Reserved</p>
+      <p class = "copyright-text">Copyright &#169; 2024 Israel Trejo. All Rights Reserved</p>
     </footer>
     <script src = "scripts/script.js"></script>
   </div>

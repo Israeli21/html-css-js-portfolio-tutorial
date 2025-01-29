@@ -26,21 +26,21 @@ buttonLeft.onclick = function () {
   container.scrollLeft -= projectContainerWidth + 16; // Adjust for the gap if any
 };
 
-var typed = new Typed(".auto-type-a", {
-  strings: ["Hi! I'm"],
-  typeSpeed: 25,
-  loop: false,
-  showCursor: false
-  ,startDelay: 2500
-});
+// var typed = new Typed(".auto-type-a", {
+//   strings: ["Hi! I'm"],
+//   typeSpeed: 25,
+//   loop: false,
+//   showCursor: false
+//   ,startDelay: 2500
+// });
 
-var typed2 = new Typed(".auto-type-b", {
-  strings: ["Junior Computer Science Student"],
-  typeSpeed: 25,
-  loop: false,
-  showCursor: false
-  ,startDelay: 2500
-});
+// var typed2 = new Typed(".auto-type-b", {
+//   strings: ["Junior Computer Science Student"],
+//   typeSpeed: 25,
+//   loop: false,
+//   showCursor: false
+//   ,startDelay: 2500
+// });
 
 var typed3 = new Typed(".auto-type-1", {
   strings: ["Israel Trejo"],

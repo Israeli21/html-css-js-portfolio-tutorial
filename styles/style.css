@@ -208,9 +208,14 @@ section {
 }
 
 .section__text p { font-weight: 600; }
+
 .section__text__p1 { 
-  text-align: center; 
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: -6px;
+  margin-top: 20px;
 }
+
 .section__text__p2 {
   font-size: 1.76rem;
   margin-bottom: 1rem;
@@ -413,10 +418,10 @@ article .icon { cursor: default; }
 
 /* FOOTER SECTION ---------------------------------------------------- */
 footer {
+  padding-top: 25px;
   height: 26vh;
-  margin: 0 1rem;
+  background-color: rgb(36, 36, 36);
+  /* margin: 0 1rem; */
 }
-
-footer p {
-  text-align: center;
-}
+footer p { text-align: center; }
+.copyright-text{ color: white; }
