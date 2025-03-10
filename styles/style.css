@@ -180,6 +180,7 @@ section {
   gap: 5rem;
   height: 80vh;
   position: relative;
+  padding-top: 0;
 }
 
 .left-align-this{
@@ -278,21 +279,12 @@ section {
   color: white;
 }
 
-.btn-color-1:hover {
-  background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
-  background: none;
-}
-
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
-
-.btn-container {
-  gap: 1rem;
-}
+.btn-color-1:hover { background: rgb(0, 0, 0); }
+.btn-color-2 { background: none; }
+.btn-container { gap: 1rem; }
 
 /* ABOUT SECTION ----------------------------------------------------- */ 
 .about-containers {
@@ -418,10 +410,10 @@ article .icon { cursor: default; }
 
 /* FOOTER SECTION ---------------------------------------------------- */
 footer {
-  padding-top: 25px;
+  /* padding-top: 25px; */
   height: 26vh;
   background-color: rgb(36, 36, 36);
-  /* margin: 0 1rem; */
 }
 footer p { text-align: center; }
-.copyright-text{ color: white; }
+.copyright-text{ color: white; margin-top: 10px; }
+.nav-links-container{ margin-top: 20px; }
