@@ -60,3 +60,8 @@
     width: 10ch; /* Reserve space for the text (10 characters wide) */
     height: 1em; /* Match the font size */
 }
+
+.prog-languages {
+    position: absolute;
+    bottom: 0;
+}
