@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Light/Dark Mode Toggle</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-theme">Toggle Theme</button>
+    <p>This is a simple light/dark mode toggle example.</p>
+
+    <script>
+        const button = document.getElementById('toggle-theme');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+
+        button.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            let theme = 'light';
+            if (document.body.classList.contains('dark-mode')) {
+                theme = 'dark';
+            }
+            localStorage.setItem('theme', theme);
+        });
+    </script>
+</body>
+</html>
