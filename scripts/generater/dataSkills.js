@@ -10,7 +10,6 @@ dataSkills.forEach((skill) => {
         />
         <div>
             <h3>${skill.name}</h3>
-            <p>${skill.level}</p>
         </div>
     </article>
     `;
