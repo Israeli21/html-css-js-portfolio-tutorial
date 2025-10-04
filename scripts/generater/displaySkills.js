@@ -1,7 +1,7 @@
-let dataHTML = ``;
+let skillsHTML = ``;
 
-dataSkills.forEach((skill) => {
-    dataHTML += `
+mySkills.forEach((skill) => {
+    skillsHTML += `
     <article>
         <img
             src="${skill.image}"
@@ -9,10 +9,10 @@ dataSkills.forEach((skill) => {
             class="icon"
         />
         <div>
-            <h3>${skill.name}</h3>
+            <p>${skill.name}<p>
         </div>
     </article>
     `;
 });
 
-document.querySelector('.data-skills').innerHTML = dataHTML;
+document.querySelector('.software-skills').innerHTML = skillsHTML;

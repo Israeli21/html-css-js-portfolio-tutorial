@@ -149,8 +149,6 @@ section {
   min-height: fit-content;
 }
 
-.section-container { display: flex; }
-
 /* PROFILE SECTION --------------------------------------------------- */
 #profile {
   display: flex;
@@ -282,7 +280,8 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 1rem;
+  height: 96%;
 }
 
 .arrow {
@@ -294,6 +293,7 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+  display: flex;
 }
 
 .section__pic-container {
@@ -308,7 +308,6 @@ section {
   color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.5rem;
-  /* font-size: 20px; */
   margin-bottom: 2rem;
 }
 
@@ -320,18 +319,19 @@ section {
 
 .article-container {
   display: flex;
-  /* text-align: initial; */
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  margin-top: -40px;
 }
 
 article {
-  display: flex;
-  width: 10rem;
+  width: 5rem;
   justify-content: space-around;
   gap: 0.5rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 article .icon { cursor: default; }
@@ -395,3 +395,4 @@ footer {
 footer p { text-align: center; }
 .copyright-text{ color: white; margin-top: 10px; }
 .nav-links-container{ margin-top: 20px; }
+
