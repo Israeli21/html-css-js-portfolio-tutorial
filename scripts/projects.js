@@ -1,8 +1,8 @@
 const projects = [
     {
         // AMAZON CLONE:
-        thumbnail: "images/thumbnails/amazon-project.png",
-        name: "Amazon Clone",
+        thumbnail: "images/software-engineer-pic.png",
+        name: "Shell AI Hackathon 2025",
         skills: [
             "./Skills/JS-Skill.jpg",
             "./Skills/html-skill.jpg",
@@ -12,8 +12,8 @@ const projects = [
         link: "https://github.com/Israeli21/amazon-project-main"
     },{
         // PORTFOLIO WEBSITE:
-        thumbnail: "images/thumbnails/portfolio-website.png",
-        name: "Portfolio Website",
+        thumbnail: "images/software-engineer-pic.png",
+        name: "UH Student Campus Website",
         skills: [
             "./Skills/JS-Skill.jpg",
             "./Skills/html-skill.jpg",
@@ -22,8 +22,8 @@ const projects = [
         link: "https://github.com/Israeli21/html-css-js-portfolio-tutorial"
     },{
         // YOUTUBE HOMEPAGE:
-        thumbnail: "images/thumbnails/youtube-homepage.png",
-        name: "Youtube Homepage",
+        thumbnail: "images/software-engineer-pic.png",
+        name: "Coogs for Energy Hackathon Winner",
         skills: [
             "./Skills/JS-Skill.jpg",
             "./Skills/html-skill.jpg",
